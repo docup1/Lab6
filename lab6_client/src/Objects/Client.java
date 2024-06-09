@@ -19,7 +19,7 @@ public class Client {
     ByteArrayOutputStream byteArrayOutputStream;
     DatagramSocket datagramSocket;
     InetAddress inetAddress;
-    int port = 4000;
+    int port = 4100;
     public Client() {
         try{
             byteArrayOutputStream = new ByteArrayOutputStream();

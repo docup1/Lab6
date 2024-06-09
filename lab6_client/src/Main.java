@@ -14,6 +14,7 @@ public class Main {
         CommandManager com;
         new MainCollection();
         while (true){
+            System.out.printf(">>> ");
             input = new String(new Scanner(System.in).nextLine());
             com = new CommandManager(new Analyzer(input));
             cl = new Client();
